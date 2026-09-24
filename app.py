@@ -1,11 +1,13 @@
 def saluta(nome):
-    # Usiamo le parentesi graffe {} per inserire la variabile nella stringa f"..."
     return f"ciao {nome}, benvenuto nel corso git!"
 
 def somma(a, b):
-    # Corretto 'rturno' in 'return'
     return a + b
 
-# Esecuzione del codice
+def moltiplica(a, b):
+    # Moltiplica i due numeri usando l'asterisco *
+    return a * b
+
 print(saluta("eux"))
-print("risultato:", somma(5, 3))
+print("risultato somma:", somma(5, 3))
+print("risultato moltiplica:", moltiplica(5, 3))
